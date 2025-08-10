@@ -6,6 +6,49 @@ A simple Spring Boot application with Nginx reverse proxy for managing and viewi
 
 ---
 
+# 📋 Requirements for Poem App
+
+This document lists the prerequisites and dependencies needed to run the **Poem App** locally or on a server.
+
+---
+
+## 1️⃣ System Requirements
+- **OS**: Ubuntu 20.04+ (tested on Ubuntu 24.04)
+- **CPU**: Dual-core or better
+- **RAM**: 2 GB minimum (4 GB recommended)
+- **Disk Space**: 500 MB free
+
+---
+
+## 2️⃣ Software Requirements
+- **Java 17+**
+  ```bash
+  sudo apt install openjdk-17-jdk -y
+  ```
+Maven
+
+sudo apt install maven -y
+Nginx
+
+
+sudo apt install nginx -y
+MySQL / MariaDB
+
+
+sudo apt install mariadb-server -y
+Git (to clone the repository)
+
+
+sudo apt install git -y
+3️⃣ Database Setup
+Create a database:
+
+mysql -u root -p
+CREATE DATABASE poemdb;
+Update database credentials in:
+
+src/main/resources/application.properties
+
 ## 1️⃣ Start the Application
 
 Run Spring Boot:
