@@ -1,0 +1,6 @@
+com/example/SecurityConfig.class
+com/example/poems/PoemService.class
+com/example/poems/PoemController.class
+com/example/poems/PoemApplication.class
+com/example/poems/Poem.class
+com/example/poems/PoemRepository.class
